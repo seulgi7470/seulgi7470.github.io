@@ -8,7 +8,9 @@ const app = firebase.initializeApp({
     storageBucket: "base-project-1ff12.appspot.com",
     messagingSenderId: "810624942153",
     appId: "1:810624942153:web:b81993400cdd69f75fff98",
-    measurementId: "G-7ZKCJ7G3LH"
+    databaseURL: "https://base-project-1ff12-default-rtdb.asia-southeast1.firebasedatabase.app",
+    measurementId: "G-7ZKCJ7G3LH",
+    
 });
 
 const messaging = firebase.messaging(app);
